@@ -1,1 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="96" fill="#7c3aed"/><circle cx="256" cy="194" r="82" fill="#fde68a"/><path d="M160 414c12-67 59-110 96-110s84 43 96 110" fill="#f8fafc"/><path d="M168 180c16-50 58-82 90-82s74 32 90 82c-10-7-22-11-36-11-23 0-39 11-54 11-16 0-31-11-54-11-14 0-26 4-36 11Z" fill="#111827"/><circle cx="224" cy="204" r="10" fill="#111827"/><circle cx="288" cy="204" r="10" fill="#111827"/><path d="M224 238c12 10 52 10 64 0" stroke="#111827" stroke-width="8" stroke-linecap="round" fill="none"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="blueAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#0a66c2" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="4"/>
+  
+  <!-- Subtle circular accent halo -->
+  <circle cx="256" cy="220" r="140" fill="url(#blueAccent)" opacity="0.15" />
+  
+  <!-- Shoulders & Coat -->
+  <path d="M120 440 C140 330 200 300 256 300 C312 300 372 330 392 440 Z" fill="#1e293b" />
+  <path d="M170 440 C185 360 220 335 256 335 C292 335 327 360 342 440 Z" fill="#0f172a" />
+  <path d="M236 335 L256 385 L276 335 Z" fill="#0a66c2" /> <!-- Tie/Accent -->
+  <path d="M225 335 L256 360 L287 335 Z" fill="#ffffff" opacity="0.9" /> <!-- Collar -->
+
+  <!-- Neck -->
+  <rect x="238" y="270" width="36" height="40" rx="8" fill="#fbcfe8" opacity="0.8" />
+  <rect x="238" y="270" width="36" height="40" rx="8" fill="#fcd34d" opacity="0.9" />
+
+  <!-- Face Head -->
+  <ellipse cx="256" cy="210" rx="72" ry="84" fill="#fde68a" />
+  
+  <!-- Hair -->
+  <path d="M180 195 C180 125 220 100 256 100 C292 100 332 125 332 195 C320 180 300 170 280 170 C250 170 230 180 205 175 C192 175 185 185 180 195 Z" fill="#09090b" />
+  
+  <!-- Eyes -->
+  <circle cx="230" cy="210" r="7" fill="#09090b" />
+  <circle cx="282" cy="210" r="7" fill="#09090b" />
+  
+  <!-- Eyebrows -->
+  <path d="M220 196 Q232 192 242 196" stroke="#09090b" stroke-width="4" stroke-linecap="round" fill="none" />
+  <path d="M270 196 Q280 192 292 196" stroke="#09090b" stroke-width="4" stroke-linecap="round" fill="none" />
+  
+  <!-- Modern glasses -->
+  <rect x="214" y="200" width="32" height="22" rx="6" fill="none" stroke="#2563eb" stroke-width="3.5" />
+  <rect x="266" y="200" width="32" height="22" rx="6" fill="none" stroke="#2563eb" stroke-width="3.5" />
+  <path d="M246 209 L266 209" stroke="#2563eb" stroke-width="3.5" />
+
+  <!-- Smile -->
+  <path d="M240 250 Q256 262 272 250" stroke="#09090b" stroke-width="4" stroke-linecap="round" fill="none" />
+</svg>

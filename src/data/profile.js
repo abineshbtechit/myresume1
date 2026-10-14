@@ -6,4 +6,5 @@ export const profile = {
   email: 'abineshas788207@gmail.com',
   linkedin: 'https://www.linkedin.com/in/asabinesh42/',
   github: 'https://github.com/abineshbtechit',
+  leetcode: 'https://leetcode.com/u/abin788207/',
 };
